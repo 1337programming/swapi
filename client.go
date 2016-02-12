@@ -23,6 +23,8 @@ type Client struct {
 
 	// HTTP client used to communicate with the SWAPI
 	httpClient *http.Client
+	
+	// TODO HTTP2 support
 }
 
 // NewClient returns a new SWAPI client.
